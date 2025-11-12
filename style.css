@@ -10,8 +10,8 @@ html {
 }
 
 body {
-  /*background-image: radial-gradient(circle, #A67BC7 0%, #764A98 100%);*/
-  background-image: url('./img/fundofullano.png');
+  background-image: radial-gradient(circle, #4e5783ff 0%, #1b213e 100%);
+  /*background-image: url('./img/fundofullano.png');*/
   color: #e1e1f1;
   display: flex;
   flex-direction: column;
@@ -27,6 +27,13 @@ body {
 @font-face {
   font-family: 'NorthernSoul-Caps'; /* Defina o nome da sua fonte */
   src: url('./fonts/NorthernSoul-Caps.otf') format('truetype'); /* Caminho para o arquivo .ttf */
+  font-weight: normal; /* Peso da fonte */
+  font-style: normal;  /* Estilo da fonte */
+}
+
+@font-face {
+  font-family: 'Laviossa-Medium'; /* Defina o nome da sua fonte */
+  src: url('./fonts/Laviossa-Medium.otf') format('truetype'); /* Caminho para o arquivo .ttf */
   font-weight: normal; /* Peso da fonte */
   font-style: normal;  /* Estilo da fonte */
 }
@@ -57,7 +64,7 @@ body {
   aspect-ratio: 1/1;
   object-fit: cover;
   object-position: top;
-  border: 2px solid #F72575;
+  border: 2px solid #f1e8db;
 }
 
 a {
@@ -109,8 +116,8 @@ ul.links li:not(:last-child) {
 .tituloft {
   text-align: center;
   color: #ffffff;
-  font-family:'NorthernSoul-Caps', sans-serif;
-  font-size: 55px;
+  font-family:'Laviossa-Medium', sans-serif;
+  font-size: 30px;
 }
 
 .links {
@@ -121,12 +128,12 @@ ul.links li:not(:last-child) {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #764A98;
+  background-color: #001543;
   gap: 1rem;
   padding: 1rem;
   border-radius: 20px;
   box-shadow: 8px 10px 0 #2d193d;
-  border: 2px solid #F72575;
+  border: 2px solid  #f1e8db;
 }
 
 .icone-grande {
@@ -146,8 +153,8 @@ ul.links li:not(:last-child) {
 .links .link-text {
   text-align: center;
   flex-grow: 1;
-  font-family:'NorthernSoul-Caps', sans-serif;
-  font-size: 32px;
+  font-family:'Laviossa-Medium', sans-serif;
+  font-size: 19px;
   color: #ffffff;
 }
 
